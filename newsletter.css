@@ -1,0 +1,885 @@
+*{
+            margin:0px;
+            border-box:box-sizing;
+        }
+        .main{
+           background-color:black;
+           height:100vh;
+           display:flex;
+           flex-direction:column;
+           justify-content: center;
+           
+        }
+        .main-inside{
+            background-color:white;
+           border-radius:25px;
+           padding:20px 50px;
+           display:flex;
+           flex-direction:row;
+       
+        }
+        .white{
+        background-color:white;
+        height:500px;
+        width:50%;
+   
+        text-align:justify;
+        padding-left:20px;
+        display:flex;
+        flex-direction:column;
+            
+        }
+     
+        .white-h1{
+            font-size:23px;
+            padding-top:40px;
+            margin-bottom:20px;
+            text-align:left;
+            
+            
+        }
+        .Email label{
+            font-size:12px;
+            font-family:Arial;
+            margin-bottom:5px;
+        }
+        .Email input{
+            font-size:8px;
+            font-family:serif;
+            padding:5px 5px;
+            border-radius:5px;
+            height:30px;
+            width:300px;
+            border:1px solid grey;
+            margin-bottom:10px;
+            
+        }
+        
+        .btn button {
+            font-size:10px;
+            font-family:serif;
+            padding:10px 5px;
+            border-radius:5px;
+            height:50px;
+            width:310px;
+            margin-top:10px;
+            background-color:#04003d;
+            border:none;
+            color:white;
+        }
+        .orange{
+            background-color:#ff6600;
+            height:500px;
+            width:50%;
+            border-radius:15px;
+            position:relative;
+            overflow:hidden;
+        }
+        .indigo-border{
+            width:250px;
+            height:200px;
+            position: absolute;
+            top:160px;
+            left:-60px;
+            border:15px solid #04003d;
+            background-color:#a2c1bd9;
+            border-radius:25px;
+        }
+        .indigo-white{
+            width:350px;
+            height:40px;
+            position: absolute;
+            bottom:260px;
+            right:-240px;
+            border:2px solid #a2c1bd9;
+            background-color: #04003d;
+            border-top-left-radius:15px;
+        }
+       
+        .light-orange-circle{
+            width:21px;
+            height:21px;
+            position: absolute;
+            bottom:10px;
+            right:310px;
+            
+            background-color:#b93500;
+            border-radius:50%;
+            
+        }
+        .dark-orange-circle{
+            width:21px;
+            height:21px;
+            position: absolute;
+            top:1px;
+            right:-40px;
+            background-color:orange;
+            border-radius:50%;
+            
+            
+        }
+        .lemon-circle{
+            width:21px;
+            height:21px;
+            position: absolute;
+            top:0px;
+            right:-40px;
+            background-color:white;
+            border-radius:50%;
+            
+        }
+        .write-up{
+            width:100px;
+            height:200px;
+            position: absolute;
+            top:30px;
+            left:-60px;
+            background-color: #DCD0FF;
+            border-bottom-left-radius:15px 
+           
+            
+        }
+        .write-white{
+           width:240px;
+            height:200px; 
+            position: absolute;
+            top:30px;
+            left:40px;
+            background-color:beige;  
+            
+        }
+        .write-white-up{
+           width:100px;
+            height:140px; 
+            position: absolute;
+            bottom:-90px;
+            right:-170px;
+            background-color:white;
+            border-radius:4px;  
+            
+        }
+        .write-whit-up{
+            width:145px;
+            height:128px; 
+            position: absolute;
+            top:125px;
+            right:-280px;
+            background-color:white; 
+        }
+        .write-whit-up-94{
+            width:70px;
+            height:70px; 
+            position: absolute;
+            top:135px;
+            right:-300px;
+            background-color:beige; 
+            border:18px solid #ff6600;
+            
+            display:flex;
+           flex-direction:row;
+           justify-content:center;
+           align-content:center;
+           
+          border-radius:50%;
+       
+        }    
+           
+         
+         .Nine{
+             font-size:px,
+             font-family:san-Serif;
+             position:absolute;
+             top:166px;
+             left:250px;
+         }
+         .line-1{
+             width:70px;
+             Height:10px;
+             background-color:#bebebe;
+             position:absolute;
+             top:40px;
+             left:1px;
+             border-radius:10px;
+         }
+         .line-2{
+             width:60px;
+             Height:10px;
+             background-color:#bebebe;
+             position:absolute;
+             top:65px;
+             left:1px;
+             border-outline:grey;
+             border-radius:10px;
+         }
+          .line-3{
+             width:70px;
+             Height:10px;
+             background-color:#bebebe;
+             position:absolute;
+             top:90px;
+             left:1px;
+             border-outline:grey;
+             border-radius:10px;
+         }
+          .line-4{
+             width:60px;
+             Height:10px;
+             background-color:#bebebe;
+             position:absolute;
+             top:115px;
+             left:1px;
+             border-outline:grey;
+             border-radius:10px;
+         }
+         
+          
+          .curve-2{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:74px;
+             left:130px;
+             border-radius:1px;
+          
+         }
+          .curve-3{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:73px;
+             left:132px;
+             border-radius:1px;
+          
+         }
+          .curve-4{
+             width:4px;
+             Height:10px;
+             background-color: orange;
+             position:absolute;
+             top:72px;
+             left:134px;
+             border-radius:1px;
+          
+         }
+          .curve-5{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:71px;
+             left:136px;
+             border-radius:1px;
+          
+         }
+         .curve-6{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:70px;
+             left:138px;
+             border-radius:1px;
+          
+         }
+         .curve-7{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:69px;
+             left:140px;
+             border-radius:1px;
+          
+         }
+         .curve-8{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:68px;
+             left:142px;
+             border-radius:1px;
+          
+         }
+         .curve-9{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:67px;
+             left:144px;
+             border-radius:1px;
+          
+         }
+         .curve-10{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:66px;
+             left:146px;
+             border-radius:1px;
+          
+         }
+         .curve-11{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:65px;
+             left:148px;
+             border-radius:1px;
+          
+         }
+         .curve-12{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:64px;
+             left:150px;
+             border-radius:1px;
+          
+         }
+         .curve-13{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:63px;
+             left:152px;
+             border-radius:1px;
+          
+         }
+         .curve-14{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:62px;
+             left:154px;
+             border-radius:1px;
+          
+         }
+         .curve-15{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:61px;
+             left:156px;
+             border-radius:1px;
+          
+         }.curve-16{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:60px;
+             left:158px;
+             border-radius:1px;
+          
+         }.curve-17{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:59px;
+             left:160px;
+             border-radius:1px;
+          
+         }.curve-18{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:58px;
+             left:162px;
+             border-radius:1px;
+          
+         }
+         .curve-19{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:56px;
+             left:164px;
+             border-radius:1px;
+          
+         }.curve-20{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:54px;
+             left:166px;
+             border-radius:1px;
+          
+         }
+         
+         .curve-21{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:52px;
+             left:170px;
+             border-radius:1px;
+          
+         }.curve-22{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:48px;
+             left:169px;
+             border-radius:1px;
+          
+         }
+         .curve-2{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:74px;
+             left:130px;
+             border-radius:1px;
+          
+         }
+          .curve-3{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:73px;
+             left:132px;
+             border-radius:1px;
+          
+         }
+          .curve-4{
+             width:4px;
+             Height:10px;
+             background-color: orange;
+             position:absolute;
+             top:72px;
+             left:134px;
+             border-radius:1px;
+          
+         }
+          .curve-5{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:71px;
+             left:136px;
+             border-radius:1px;
+          
+         }
+         .curve-6{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:70px;
+             left:138px;
+             border-radius:1px;
+          
+         }
+         .curve-7{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:69px;
+             left:140px;
+             border-radius:1px;
+          
+         }
+         .curve-8{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:68px;
+             left:142px;
+             border-radius:1px;
+          
+         }
+         .curve-9{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:67px;
+             left:144px;
+             border-radius:1px;
+          
+         }
+         .curve-10{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:66px;
+             left:146px;
+             border-radius:1px;
+          
+         }
+         .curve-11{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:65px;
+             left:148px;
+             border-radius:1px;
+          
+         }
+         .curve-12{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:64px;
+             left:150px;
+             border-radius:1px;
+          
+         }
+         .curve-13{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:63px;
+             left:152px;
+             border-radius:1px;
+          
+         }
+         .curve-14{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:62px;
+             left:154px;
+             border-radius:1px;
+          
+         }
+         .curve-15{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:61px;
+             left:156px;
+             border-radius:1px;
+          
+         }.curve-16{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:60px;
+             left:158px;
+             border-radius:1px;
+          
+         }.curve-17{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:59px;
+             left:160px;
+             border-radius:1px;
+          
+         }.curve-18{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:58px;
+             left:162px;
+             border-radius:1px;
+          
+         }
+         .curve-19{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:56px;
+             left:164px;
+             border-radius:1px;
+          
+         }.curve-20{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:54px;
+             left:166px;
+             border-radius:1px;
+          
+         }
+         
+         .curve-21{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:52px;
+             left:170px;
+             border-radius:1px;
+          
+         }.curve-22{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:48px;
+             left:169px;
+             border-radius:1px;
+          
+         }
+         .curve-2{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:74px;
+             left:130px;
+             border-radius:1px;
+          
+         }
+          .curve-3{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:73px;
+             left:132px;
+             border-radius:1px;
+          
+         }
+          .curve-4{
+             width:4px;
+             Height:10px;
+             background-color: orange;
+             position:absolute;
+             top:72px;
+             left:134px;
+             border-radius:1px;
+          
+         }
+          .curve-5{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:71px;
+             left:136px;
+             border-radius:1px;
+          
+         }
+         .curve-6{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:70px;
+             left:138px;
+             border-radius:1px;
+          
+         }
+         .curve-7{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:69px;
+             left:140px;
+             border-radius:1px;
+          
+         }
+         .curve-8{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:68px;
+             left:142px;
+             border-radius:1px;
+          
+         }
+         .curve-9{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:67px;
+             left:144px;
+             border-radius:1px;
+          
+         }
+         .curve-10{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:66px;
+             left:146px;
+             border-radius:1px;
+          
+         }
+         .curve-11{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:65px;
+             left:148px;
+             border-radius:1px;
+          
+         }
+         .curve-12{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:64px;
+             left:150px;
+             border-radius:1px;
+          
+         }
+         .curve-13{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:63px;
+             left:152px;
+             border-radius:1px;
+          
+         }
+         .curve-14{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:62px;
+             left:154px;
+             border-radius:1px;
+          
+         }
+         .curve-15{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:61px;
+             left:156px;
+             border-radius:1px;
+          
+         }.curve-16{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:60px;
+             left:158px;
+             border-radius:1px;
+          
+         }.curve-17{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:59px;
+             left:160px;
+             border-radius:1px;
+          
+         }.curve-18{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:58px;
+             left:162px;
+             border-radius:1px;
+          
+         }
+         .curve-19{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:56px;
+             left:164px;
+             border-radius:1px;
+          
+         }.curve-20{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:54px;
+             left:166px;
+             border-radius:1px;
+          
+         }
+         
+         .curve-21{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:52px;
+             left:170px;
+             border-radius:1px;
+          
+         }.curve-22{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:48px;
+             left:169px;
+             border-radius:1px;
+          
+         }
+         .curve-2{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:74px;
+             left:130px;
+             border-radius:1px;
+          
+         }
+          .curve-3{
+             width:4px;
+             Height:10px;
+             background-color:orange;
+             position:absolute;
+             top:73px;
+             left:132px;
+             border-radius:1px;
+          
+         }
+          .curve-4{
+             width:4px;
+             Height:10px;
+             background-color: orange;
+             position:absolute;
+             top:72px;
+             left:134px;
+             border-radius:1px;
+          
+         }
+          .curve-5{
+             width:4px;
